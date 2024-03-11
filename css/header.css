@@ -1,0 +1,77 @@
+.position_apropos {
+
+    display: inline-block;
+    margin-left: 52%;
+    margin-top: 10px;
+}
+
+.position_connexion {
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+
+.typographie_apropos_connexion {
+    font-family: Orbitron;
+    font-size: 25px;
+    white-space: nowrap;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    position: relative;
+    transition: text-shadow 0.3s ease;
+}
+
+.typographie_apropos_connexion:hover {
+    text-shadow: 0px 0px 30px rgb(0, 253, 253);
+}
+
+.logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 999;
+}
+
+
+
+.decalage_inscription {
+    margin-left: 3%;
+
+}
+
+.menu-cache {
+    height: 0px;
+}
+
+.container2 {
+    display: flex;
+
+
+}
+
+.cadre_bleu {
+    margin-top: 20px;
+    display: flex;
+    border: 2px solid rgba(255, 255, 255, 0.695);
+
+    border-radius: 10px;
+    background-color: #36C1ED;
+
+    box-shadow: 0px 0px 10px 5px rgba(0, 255, 255, 0.508);
+    height: 60px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ligne-blanche {
+    width: 101%;
+    height: 0.5px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+.logo-taille {
+    width: 175px;
+}
